@@ -40,11 +40,9 @@ class CustomCheckboxListTile extends StatelessWidget {
           },
           child: Row(
             children: [
-              AnimatedContainer(
+              Container(
                   height: size ?? 24,
                   width: size ?? 24,
-                  duration: const Duration(milliseconds: 400),
-                  curve: Curves.fastLinearToSlowEaseIn,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(5.0),
                       color: value
